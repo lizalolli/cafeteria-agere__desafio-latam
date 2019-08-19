@@ -1,0 +1,29 @@
+.button{
+    padding: .3rem .7rem;
+    font-family: $pt-mono;
+    font-size: $medium;
+}
+
+.button__primary{
+    border: 1px solid $quick-silver;
+    background-color: $white;
+    color:$quick-silver; 
+
+    &:hover{
+        border: 1px solid $black;
+        background-color: $white;
+        color:$black;
+    }
+}
+
+.button__secondary{
+    border: 1px solid $shiny-shamrock;
+    background-color: $shiny-shamrock;
+    color:$white;
+
+    &:hover{
+        background-color: $turquoise-green;
+        border-color: $turquoise-green;
+        color:$outer-space;
+    }
+}

@@ -1,0 +1,16 @@
+.section__main-img{
+    float:left;
+    img{
+        width:800px;
+        float:left;
+    }
+}
+
+.section__main-title{
+    @include first_title
+}
+ 
+.section__description{
+    float:left;
+    width:25%;
+}
